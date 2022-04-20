@@ -21,9 +21,3 @@ const longestCommonPrefix = (strs) => {
   }
   return longestPrefix.slice(0, -1);
 };
-
-console.log(longestCommonPrefix(['flower', 'flow', 'flight']), 'should be fl');
-console.log(longestCommonPrefix(['dog', 'racecar', 'car']), 'should be ""');
-console.log(longestCommonPrefix(['']), 'should be ""');
-console.log(longestCommonPrefix(['', '']), 'should be ""');
-console.log(longestCommonPrefix(['flower', 'flower', 'flower', 'flower']), 'should be flower');
